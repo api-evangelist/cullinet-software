@@ -1,8 +1,24 @@
 aid: cullinet-software
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cullinet-software.png
 name: Cullinet Software
-description: Cullinet Software is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Cullinet Software (formerly Cullinane Database Systems) was a database and application
+  software company based in Westwood, Massachusetts, best known for the IDMS/IDMS-DB mainframe database
+  management system, the IDD data dictionary, and the ADS/Online application development environment
+  for IBM mainframes. Backed by Battery Ventures, Greylock, and Morgenthaler Ventures, it was one of the
+  first software companies to go public (1978) and was acquired by Computer Associates (CA) on June 30,
+  1989. The company is defunct and publishes no developer portal, API, or documentation surface today;
+  this record is retained as a historical portfolio-graph node with no enrichable API artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/cullinet-software/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +28,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Database
+- Mainframe
+- Enterprise Software
+- Application Development
+- Data Management
+- Defunct
+- Historical
+x-status: defunct
+x-acquired-by: computer-associates
+x-acquired-date: '1989-06-30'
+x-no-api-surface: true
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
